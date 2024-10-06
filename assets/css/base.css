@@ -1,0 +1,68 @@
+:root {
+    --color-one: #8261EE;
+    --color-two: #ff589e;
+    --color-text: #1e1e1e;
+    --font-family: "Raleway", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: var(--font-family);
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.button{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 45px;
+    background: #fff;
+    color: var(--color-text);
+    font-size: 13px;
+    font-weight: 500;
+}
+.button-one{
+    background: var(--color-one);
+    color: #fff;  
+    transition: 0.3s ease;
+
+}
+.button-one:hover{
+    background: var(--color-two);
+    color: #fff; 
+    transform: scale(1.1); /* Phóng to */  
+}
+.button-two{
+    background: var(--color-two);
+    color: #fff;  
+    transition: 0.3s ease;
+
+}
+.button-two:hover{
+    background: var(--color-one);
+    color: #fff; 
+    transform: scale(1.1); /* Phóng to */  
+}
+.box-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-head .inner-title{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.box-head .inner-desc{
+    font-size: 14px;
+    margin-top: 10px;
+}
