@@ -44,21 +44,25 @@
 .header .inner-menu ul li a.active {
     color: var(--color-two);
 }
-.header .inner-mobile{
+
+.header .inner-mobile {
     display: none;
 
 }
+
 /* END-HEADER */
-@media (max-width:991.98px){
-    .header .inner-menu{
+@media (max-width:991.98px) {
+    .header .inner-menu {
         display: none;
     }
-    .header .inner-mobile{
+
+    .header .inner-mobile {
         display: block;
         font-size: 24px;
 
     }
 }
+
 /* SECTION-ONE */
 .section-one {
     background-image: url(../img/banner-bg.png);
@@ -88,16 +92,19 @@
     color: #fff;
     margin-bottom: 20px;
 }
-@media(max-width:767.98px){
-    .section-one .inner-title{
+
+@media(max-width:767.98px) {
+    .section-one .inner-title {
         font-size: 20px;
     }
-    .section-one .inner-desc{
+
+    .section-one .inner-desc {
         font-size: 13px;
     }
-    
-    
+
+
 }
+
 /* END-SECTION-ONE */
 /* SECTION-TWO */
 .section-two {
@@ -147,49 +154,59 @@
     font-size: 13px;
     margin-bottom: 0;
 }
-.section-two .inner-box{
+
+.section-two .inner-box {
     margin-bottom: 30px;
 }
-@media (max-width:991.98px){
-    .section-two{
+
+@media (max-width:991.98px) {
+    .section-two {
         margin-top: 0;
     }
 
 }
+
 /* END-SECTION-TWO */
 /* SECTION-THREE */
-.section-three{
+.section-three {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.section-three .inner-image{
+
+.section-three .inner-image {
     text-align: center;
 }
-.section-three .inner-image img{
+
+.section-three .inner-image img {
     max-width: 100%;
     height: auto;
 }
-.section-three .inner-content .inner-title{
+
+.section-three .inner-content .inner-title {
     font-size: 28px;
     margin-bottom: 25px;
 }
-.section-three .inner-content .inner-desc{
+
+.section-three .inner-content .inner-desc {
     color: rgb(151, 142, 142);
 }
-.section-three .inner-boder-bottem{
+
+.section-three .inner-boder-bottem {
     border-bottom: 1px solid #ddd;
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
-@media (max-width:991.98px){
-    .section-three .inner-image{
+
+@media (max-width:991.98px) {
+    .section-three .inner-image {
         margin-bottom: 20px;
     }
 
 }
+
 /* END-SECTION-THREE */
 /* SECTION-FOUR */
-.section-four{
+.section-four {
     background-image: url(../img/fun-facts-bg.png);
     padding: 80px 0;
     background-position: center;
@@ -197,71 +214,137 @@
     background-size: cover;
 
 }
-.section-four .inner-box{
+
+.section-four .inner-box {
     position: relative;
     height: 100px;
 }
-.section-four .inner-box::before{
+
+.section-four .inner-box::before {
     content: "";
     display: block;
     width: 100px;
     height: 20px;
     background-image: url(../img/circle-dec.png);
     background-position: center;
-    background-repeat: no-repeat;/* background-repeat: no-repeat; là thuộc tính CSS dùng để ngăn hình nền lặp lại, chỉ hiển thị một lần trên nền. */
+    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; là thuộc tính CSS dùng để ngăn hình nền lặp lại, chỉ hiển thị một lần trên nền. */
     background-size: contain;
     position: absolute;
     left: 63%;
-    top:45%;
+    top: 45%;
 }
-.section-four .inner-box .inner-content{
+
+.section-four .inner-box .inner-content {
     color: #fff;
     transform: translateY(0);
     transition: 0.3s ease 0s;
 }
-.section-four .inner-box:hover .inner-content{
+
+.section-four .inner-box:hover .inner-content {
     transform: translateY(-20px);
 }
 
-.section-four .inner-box .inner-number{
+.section-four .inner-box .inner-number {
     font-size: 32px;
     font-weight: 700;
 }
-@media (max-width:991.98px){
-    .section-four .inner-box::before{
+
+@media (max-width:991.98px) {
+    .section-four .inner-box::before {
         display: none;
     }
-    .section-four .inner-box{
+
+    .section-four .inner-box {
         text-align: center;
         margin: 10px 0;
     }
 }
+
 /* END-SECTION-FOUR */
 /* SECTION-FIVE */
-.section-five{
+.section-five {
     padding-bottom: 80px;
     padding-top: 80px;
 }
-.section-five .inner-content{
+
+.section-five .inner-content {
     margin-top: 10px;
     padding: 10px;
     text-align: center;
 }
-.section-five .inner-image{
+
+.section-five .inner-image {
     width: 100%;
     aspect-ratio: 4/3;
     margin: 0 auto;
     overflow: hidden;
     max-width: 370px;
 }
-.section-five .inner-box{
+
+.section-five .inner-box {
     margin-bottom: 30px;
 }
-.section-five .inner-content .inner-title{
+
+.section-five .inner-content .inner-title {
     font-size: 22px;
     margin-bottom: 10px;
 }
-.section-five .inner-content .inner-desc{
+
+.section-five .inner-content .inner-desc {
     font-size: 13px;
 }
+
 /* END-SECTION-FIVE */
+/* SECTION-SIX */
+.section-six {
+    background: #f2f2fe;
+    padding: 80px 0;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.section-six .inner-content .inner-title {
+    font-size: 28px;
+    color: black;
+}
+
+.section-six .inner-desc {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.section-six .form input,
+.section-six .form textarea {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.section-six p {
+    margin-bottom: 28px;
+}
+
+.section-six .form input:focus,
+.section-six .form textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(188, 138, 230);
+}
+
+.section-six .form input {
+    height: 50px;
+}
+
+.section-six .form textarea {
+    height: 150px;
+
+}
+
+/* END-SECTION-SIX */
